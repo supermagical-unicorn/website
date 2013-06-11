@@ -1,4 +1,14 @@
 /*
+ * We love icon fonts <3
+ */
+
+@import url(http://weloveiconfonts.com/api/?family=brandico);
+
+[class*="brandico-"]:before {
+  font-family: 'brandico', sans-serif;
+}
+
+/*
  * Some styling for body and the main content wrapper
  */
 
@@ -24,6 +34,16 @@ body {
     border-radius: 20px;
 }
 
+footer {
+  color: #ddd;
+  font-size: 0.75em;
+  position: absolute;
+  bottom: 0px;
+  text-align: center;
+  margin: 0px auto;
+  width: 100%;
+}
+
 /*
  * Generic classes
  */
@@ -33,3 +53,52 @@ body {
   text-align: center;
 }
 
+.hidden-hint {
+  display: none;
+}
+
+/*
+
+                                                         ,/
+                                                        //
+                                                      ,//
+                                          ___   /|   |//
+                                      `__/\_ --(/|___/-/
+                                   \|\_-\___ __-_`- /-/ \.
+                                  |\_-___,-\_____--/_)' ) \
+                                   \ -_ /     __ \( `( __`\|
+                                   `\__|      |\)\ ) /(/|
+           ,._____.,            ',--//-|      \  |  '   /
+          /     __. \,          / /,---|       \       /
+         / /    _. \  \        `/`_/ _,'        |     |
+        |  | ( (  \   |      ,/\'__/'/          |     |
+        |  \  \`--, `_/_------______/           \(   )/
+        | | \  \_. \,                            \___/\
+        | |  \_   \  \                                 \
+        \ \    \_ \   \   /                             \
+         \ \  \._  \__ \_|       |                       \
+          \ \___  \      \       |                        \
+           \__ \__ \  \_ |       \                         |
+           |  \_____ \  ____      |                        |
+           | \  \__ ---' .__\     |        |               |
+           \  \__ ---   /   )     |        \              /
+            \   \____/ / ()(      \          `---_       /|
+             \__________/(,--__    \_________.    |    ./ |
+               |     \ \  `---_\--,           \   \_,./   |
+               |      \  \_ ` \    /`---_______-\   \\    /
+                \      \.___,`|   /              \   \\   \
+                 \     |  \_ \|   \              (   |:    |
+                  \    \      \    |             /  / |    ;
+                   \    \      \    \          ( `_'   \  |
+                    \.   \      \.   \          `__/   |  |    Valkyrie
+                      \   \       \.  \                |  |
+                       \   \        \  \               (  )
+                        \   |        \  |              |  |
+                         |  \         \ \              I  `
+                         ( __;        ( _;            ('-_';
+                         |___\        \___:            \___:
+
+The first wisdom of the unicorn lies ahead: Wise mans tools are analogies and puzzles. And puzzles you will find here.
+Wisdom is power, so send an email to charly.theunicorn@web.de to stay ahead of the flock!
+
+*/
