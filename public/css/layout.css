@@ -1,0 +1,35 @@
+/*
+ * Some styling for body and the main content wrapper
+ */
+
+body {
+  background: url('/img/unicorn2.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#wrap {
+    position: absolute;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+    min-height: 90%;
+    margin: 2em auto;
+    background-color: rgba(0,0,0,0.5);
+    color: #fff;
+    padding: 2em;
+
+    border-radius: 20px;
+}
+
+/*
+ * Generic classes
+ */
+
+.centered {
+  margin: inherit auto;
+  text-align: center;
+}
+
