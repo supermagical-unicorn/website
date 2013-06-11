@@ -20,6 +20,10 @@ body {
   background-size: cover;
 }
 
+a, a:visited {
+  color: #8ef;
+}
+
 #wrap {
     position: absolute;
     left: 5%;
